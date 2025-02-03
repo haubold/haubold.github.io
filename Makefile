@@ -1,6 +1,6 @@
 all: index.html
 	make -C css
-index.html: index.md
+index.html: README.md
 	pandoc README.md > index.html
 clean:
 	rm index.html
