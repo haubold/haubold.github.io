@@ -192,6 +192,6 @@
 }
 #thermometer .current:before {
   content: "— ";
-  color: #fff;
+  color: #000000;
   display: inline-block;
 }
