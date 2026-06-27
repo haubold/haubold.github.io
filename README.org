@@ -1,27 +1,47 @@
 * Bernhard Haubold
 ** About
-- Research genomics in the [[https://evolbioinf.github.io/][Bioinformatics Group]] at the
-  [[www.evolbio.mpg.de][Max-Planck-Institute for Evolutionary Biology]]
-- Teach Bioinformatics at the [[https://www.inb.uni-luebeck.de/en/institute-of-neuro-and-biocomputing][Institute of Neuro- and Biocomputing]] of
+- Research: Genomics in the [[https://evolbioinf.github.io/][Bioinformatics Group]] at the
+  [[https://www.evolbio.mpg.de][Max-Planck-Institute for Evolutionary Biology]]
+- Teaching: Bioinformatics at the [[https://www.inb.uni-luebeck.de/en/institute-of-neuro-and-biocomputing][Institute of Neuro- and Biocomputing]] of
   [[https://www.uni-luebeck.de/en/university/university.html][Lübeck University]]
-- Serve on the council of [[https://www.friedenskirche-ploen.de/][my church]]
 
-** Bioinformatics
-*** Research
-#+include: "research.org" 
+** Research
+*** Description
+When using a word-processor, it is often necessary to search for a
+word or a phrase in the text we have written so far. Such a search
+usually takes time proportional to the length of the text. This makes
+intuitive sense. If we wanted to find all occurrences of, say,
+"Voldemort" in J. K. Rowling's /Harry Potter/, we'd need to scan all
+seven volumes.
+
+Or would we? We might be reading an annotated edition that includes an
+exhaustive index. In that case it would only take time proportional to
+the length of "Voldemort" to find all of his appearances in Harry
+Potter. 
+
+A suffix tree is a data structure for finding patterns, such as
+"Voldemort", in a text, such as /Harry Potter/, in time proportional
+to the length of the pattern. For example, we can convert the text
+=madamimadam= to its suffix tree [[guanine.evolbio.mpg.de/drawStrees][here]].
+
+If you now read the string =adam= starting at the root, you end on a
+branch with leaves labeled 8 and 2. These are the starting positions
+of =adam= in =madamimadam=. Try it, if you like.
+
+In the past, we have used suffix trees to [[https://pubmed.ncbi.nlm.nih.gov/31790149/][estimate evolutionary
+distances]], [[https://pubmed.ncbi.nlm.nih.gov/24064419/][detect recombination]], and [[https://pubmed.ncbi.nlm.nih.gov/39132289/][find genetic markers]].
+
+Currently, we are particularly interested in finding the genome
+sequences necessary for finding genetic markers. This work is based on
+the distribution of genomes on the taxonomy of sequenced life, which
+we visualize with our web browser [[https://neighbors.evolbio.mpg.de/vitax][Vitax]].
 *** [[https://github.com/evolbioinf/][Software]]
 *** [[https://www.evolbio.mpg.de/publication-search/22223?person=http%3A%2F%2Fpubman.mpdl.mpg.de%2Fcone%2Fpersons%2Fresource%2Fpersons56719][Publications]]
 
 ** Teaching
-*** Course
 Together with [[https://www.liga.uni-luebeck.de/][Lars Bertram]] and [[https://beatrizvm.github.io/][Beatriz Vieira Mourato]] I teach a course
 /Molecular Bioinformatics/ on methods in genomics at Lübeck
 University. The course consists of lectures and practicals. The
 practicals are centered on sequence analysis on the Unix command line,
-as detailed in the text book [[https://link.springer.com/book/10.1007/978-3-031-20414-2][/Biofinformatics for Evolutionary
-Biologists/]].
-
-** Church
-- A [donation thermometer](dona.html) for [my
-  church](https://www.kirche-ploen.de/) adapted from
-  [here](https://github.com/RayHyde/thermometer)
+as detailed in the text book
+[[https://link.springer.com/book/10.1007/978-3-031-20414-2][/Biofinformatics for Evolutionary Biologists/]].
