@@ -1,0 +1,27 @@
+* Bernhard Haubold
+** About
+- Research genomics in the [[https://evolbioinf.github.io/][Bioinformatics Group]] at the
+  [[www.evolbio.mpg.de][Max-Planck-Institute for Evolutionary Biology]]
+- Teach Bioinformatics at the [[https://www.inb.uni-luebeck.de/en/institute-of-neuro-and-biocomputing][Institute of Neuro- and Biocomputing]] of
+  [[https://www.uni-luebeck.de/en/university/university.html][Lübeck University]]
+- Serve on the council of [[https://www.friedenskirche-ploen.de/][my church]]
+
+** Bioinformatics
+*** Research
+#+include: "research.org" 
+*** [[https://github.com/evolbioinf/][Software]]
+*** [[https://www.evolbio.mpg.de/publication-search/22223?person=http%3A%2F%2Fpubman.mpdl.mpg.de%2Fcone%2Fpersons%2Fresource%2Fpersons56719][Publications]]
+
+** Teaching
+*** Course
+Together with [[https://www.liga.uni-luebeck.de/][Lars Bertram]] and [[https://beatrizvm.github.io/][Beatriz Vieira Mourato]] I teach a course
+/Molecular Bioinformatics/ on methods in genomics at Lübeck
+University. The course consists of lectures and practicals. The
+practicals are centered on sequence analysis on the Unix command line,
+as detailed in the text book [[https://link.springer.com/book/10.1007/978-3-031-20414-2][/Biofinformatics for Evolutionary
+Biologists/]].
+
+** Church
+- A [donation thermometer](dona.html) for [my
+  church](https://www.kirche-ploen.de/) adapted from
+  [here](https://github.com/RayHyde/thermometer)
