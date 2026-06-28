@@ -1,8 +1,8 @@
-title: Minimal theme
-logo: /assets/img/logo.png
-description: Minimal is a theme for GitHub Pages.
+title: Bernhard Haubold
+logo: https://www.evolbio.mpg.de/employee_images/12020-1721198255?t=ZXlKM2FXUjBhQ0k2TkRJMkxDSm9aV2xuYUhRaU9qVTBPQ3dpWm1sMElqb2lZM0p2Y0NJc0ltWnBiR1ZmWlhoMFpXNXphVzl1SWpvaWQyVmljQ0o5LS0yNzY0NmFiNGYzMGU3ZmVkY2YzZjAzZWJkMzYwNTY1NjE3ODI1YTFj
+description: I'm a Bioinformatician
 show_downloads: true
-google_analytics:
+# google_analytics:
 theme: jekyll-theme-minimal
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
