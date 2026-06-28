@@ -6,7 +6,6 @@
   [[https://www.uni-luebeck.de/en/university/university.html][Lübeck University]]
 
 ** Research
-*** Description
 When using a word-processor, it is often necessary to search for a
 word or a phrase in the text we have written so far. Such a search
 usually takes time proportional to the length of the text. This makes
@@ -22,7 +21,7 @@ Potter.
 A suffix tree is a data structure for finding patterns, such as
 "Voldemort", in a text, such as /Harry Potter/, in time proportional
 to the length of the pattern. For example, we can convert the text
-=madamimadam= to its suffix tree [[guanine.evolbio.mpg.de/drawStrees][here]].
+=madamimadam= to its suffix tree [[https://guanine.evolbio.mpg.de/drawStrees][here]].
 
 If you now read the string =adam= starting at the root, you end on a
 branch with leaves labeled 8 and 2. These are the starting positions
@@ -35,6 +34,10 @@ Currently, we are particularly interested in finding the genome
 sequences necessary for finding genetic markers. This work is based on
 the distribution of genomes on the taxonomy of sequenced life, which
 we visualize with our web browser [[https://neighbors.evolbio.mpg.de/vitax][Vitax]].
+
+Our research is often accompanied by software, which we host on our
+[[https://github.com/EvolBioInf][EvolBioInf]] site on Github.
+
 *** [[https://github.com/evolbioinf/][Software]]
 *** [[https://www.evolbio.mpg.de/publication-search/22223?person=http%3A%2F%2Fpubman.mpdl.mpg.de%2Fcone%2Fpersons%2Fresource%2Fpersons56719][Publications]]
 
